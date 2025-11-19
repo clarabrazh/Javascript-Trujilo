@@ -1,4 +1,4 @@
-let Impar = prompt("Digite seu número de usuário: ")
+let Impar = parseInt(prompt("Digite seu número de usuário: "))
 
 if (Impar % 2 === 0) {
 console.log ("O número é par")
